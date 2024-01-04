@@ -18,11 +18,29 @@
       <publication>publisher/publication.xml</publication>
       <output-dir>output/latex</output-dir>
     </target>
-    <target name="pdf" pdf-method="pdflatex">
+    <target name="print" pdf-method="pdflatex">
       <format>pdf</format>
       <source>source/supplement111-112.ptx</source>
       <publication>publisher/publication.xml</publication>
       <output-dir>output/pdf</output-dir>
+    </target>
+    <target name="epub">
+      <format>epub</format>
+      <source>source/supplement111-112.ptx</source>
+      <publication>publisher/publication.xml</publication>
+      <output-dir>output/epub</output-dir>
+    </target>
+    <target name="braille-electronic">
+      <format>braille-electronic</format>
+      <source>source/supplement111-112.ptx</source>
+      <publication>publisher/publication.xml</publication>
+      <output-dir>output/braille-electronic</output-dir>
+    </target>
+    <target name="braille-emboss">
+      <format>braille-emboss</format>
+      <source>source/supplement111-112.ptx</source>
+      <publication>publisher/publication.xml</publication>
+      <output-dir>output/emboss-emboss</output-dir>
     </target>
     <target name="subset">
       <format>html</format>

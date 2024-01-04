@@ -4,7 +4,12 @@
     <source>
       <directories generated="../generated" external="../external"/>
     </source>
-    <!-- HTML-Specific Options -->
+    <common>
+      <exercise-inline     hint="yes" answer="yes" solution="yes"/>
+      <exercise-divisional hint="no" answer="no" solution="no"/>
+      <fillin textstyle="shade"/>
+  </common>
+  <!-- HTML-Specific Options -->
     <html>
         <index-page ref="supplement111-112"/>
         <knowl example="no"/>
@@ -12,5 +17,7 @@
     <!-- PDF-Specific Options -->
     <latex print="no" sides="one">
     </latex>
-    <epub cover="../external/images/Cover_b.png"/>
+    <epub>
+      <cover front="../external/images/Cover_b.png"/>>
+    </epub>
 </publication>
