@@ -200,7 +200,7 @@
           </md>
         </p>
         <p>
-          So both <m>\frac{\sqrt{2}}{2}+\frac{\sqrt{6}}{2}i</m> and <m>-\frac{\sqrt{2}}{2}-\frac{\sqrt{6}}{2}i</m> are square roots of <m>-1+\sqrt{3}i</m>. But just as <m>2</m>, not <m>-2</m>, is called the principal square root of <m>4</m>, only one of thes two square roots that we found is the principal square root of <m>-1+\sqrt{3}i</m>. The principal square root of a complex number, is the one found by using an angle in the interval <m>(-\pi,\pi]</m> to represent the complex number in polar form, so the first root we found (i.e., the one we found using <m>\theta=\frac{2\pi}{3}</m>) is the principal square root of <m>-1+\sqrt{3}i</m>. The princial square root is the one represented by the radical symbol, so we can write
+          So both <m>\frac{\sqrt{2}}{2}+\frac{\sqrt{6}}{2}i</m> and <m>-\frac{\sqrt{2}}{2}-\frac{\sqrt{6}}{2}i</m> are square roots of <m>-1+\sqrt{3}i</m>. But just as <m>2</m>, not <m>-2</m>, is called the principal square root of <m>4</m>, only one of thes two square roots that we found is the principal square root of <m>-1+\sqrt{3}i</m>. The principal square root (or principal <m>n</m>th root) of a complex number is the root with the greatest real component. And if there is a tie between two roots for having the greatest real component, the one with positive imaginary component is the principal root. So the first root we found (i.e., the one we found using <m>\theta=\frac{2\pi}{3}</m>) is the principal square root of <m>-1+\sqrt{3}i</m>, because its real part is <m>\frac{\sqrt{2}}{2}</m> which is greater than the other root's real part, <m>-\frac{\sqrt{2}}{2}</m>. The princial root is the one represented by the radical symbol, so we can write
           <me>
             \sqrt{-1+\sqrt{3}i}=\frac{\sqrt{2}}{2}+\frac{\sqrt{6}}{2}i.
           </me>
@@ -352,7 +352,7 @@
               </statement>
               <answer>
                 <p>
-                  <m>\sqrt{18-18\sqrt{3}\cdot i}=3\sqrt{3}-3i</m>
+                  <m>\sqrt{18-18\sqrt{3}\cdot i}=3\sqrt{3}-3i</m> (and the non-principal root is <m>-3\sqrt{3}+3i</m>)
                 </p>
               </answer>
           </exercise>
@@ -364,7 +364,7 @@
               </statement>
               <answer>
                 <p>
-                  <m>\sqrt[3]{-16+16i}=2+2i</m>
+                  <m>\sqrt[3]{-16+16i}=2+2i</m> (and the non-principal roots are <m>\left(-1-\sqrt{3}\right)+\left(-1+\sqrt{3}\right)i</m> and <m>\left(-1+\sqrt{3}\right)+\left(-1-\sqrt{3}\right)i</m>)
                 </p>
               </answer>
           </exercise>
@@ -376,7 +376,7 @@
               </statement>
               <answer>
                 <p>
-                  <m>\sqrt{-i} = \frac{\sqrt{2}}{2}-\frac{\sqrt{2}}{2}i</m>
+                  <m>\sqrt{-i} = \frac{\sqrt{2}}{2}-\frac{\sqrt{2}}{2}i</m> (and the non-principal root is <m>-\frac{\sqrt{2}}{2}+\frac{\sqrt{2}}{2}i</m>)
                 </p>
               </answer>
           </exercise>
@@ -388,7 +388,7 @@
               </statement>
               <answer>
                 <p>
-                  <m>\sqrt[5]{-16\sqrt{3}-16i}=\sqrt{3}-i</m>
+                  <m>\sqrt[5]{-16\sqrt{3}-16i}=\sqrt{3}-i</m> (and the non-principal roots are <m>2\cos\mathopen{}\left(\frac{7\pi}{30}\right)+2i\sin\mathopen{}\left(\frac{7\pi}{30}\right)</m>, <m>2\cos\mathopen{}\left(\frac{19\pi}{30}\right)+2i\sin\mathopen{}\left(\frac{19\pi}{30}\right)</m>, <m>2\cos\mathopen{}\left(\frac{29\pi}{30}\right)-2i\sin\mathopen{}\left(\frac{29\pi}{30}\right)</m>, and <m>2\cos\mathopen{}\left(\frac{17\pi}{30}\right)-2i\sin\mathopen{}\left(\frac{17\pi}{30}\right)</m>)
                 </p>
               </answer>
           </exercise>
